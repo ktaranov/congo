@@ -1,0 +1,56 @@
+article:
+  anchor_label: "Якір"
+  date: "{{ .Date }}"
+  date_updated: "Оновлено: {{.Date }}"
+  draft: "Чернетка"
+  edit_title: "Редагувати"
+  reading_time:
+    one: "{ .Count }} хвилина"
+    other: "{{ .Count }} хвилин"
+  reading_time_title: "час читання"
+  table_of_contents: "Зміст"
+  word_count:
+    one: "{ .Count }} слово"
+    other: "{ .Count }} слів"
+
+author:
+  byline_title: "Автор"
+
+code:
+  copy: "Копіювати"
+  copied: "Cкопійовано"
+
+error:
+  404_title: "Сторінку не знайдено: трапляється:"
+  404_error: "Помилка 404"
+  404_description: "Схоже, що запитувана вами сторінка не існує."
+
+footer:
+  dark_appearance: "Переключитися на темну тему"
+  light_appearance: "Перейдіть на світлий тему"
+  powered_by: "Створено {{ .Hugo }} &amp; {{ .Congo }}"
+
+list:
+  externalurl_title: "Посилання на вошений сайт"
+  no_articles: "Тут ще немає статей"
+
+nav:
+  scroll_to_top_title: "Вгору"
+  skip_to_main: "Перейти до змісту"
+
+search:
+  open_button_title: "Пошук ( / )"
+  close_button_title: "Закрити (Esc)"
+  input_placeholder: "Пошук"
+
+sharing:
+  email: "Надіслати через email"
+  facebook: "Поділитися на Facebook"
+  linkedin: "Поділитися на LinkedIn"
+  mastodon: "Поділитися на Mastodon"
+  pinterest: "Поділитися на Pinterest"
+  reddit: "Опублікувати на Reddit"
+  twitter: "Опублікувати на Twitter"
+
+shortcode:
+  recent_articles: "Останні"
